@@ -1,0 +1,17 @@
+#忽略所有生成的文件夹
+/include/*
+!/include/gtest/
+output/
+obj/
+script/
+!/script/
+#忽略所有生成的文件
+*.[oa]
+*.out
+*.dll
+*.exe
+#忽略SVN版本文件夹
+.svn/
+#不上传核心业务相关库
+/lib/sim/
+/app/test_sim/
